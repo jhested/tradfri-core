@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Tradfri.Client
+﻿namespace Tradfri.Client
 {
     public class ApiEndPoint : StringStatic
     {
@@ -20,7 +14,7 @@ namespace Tradfri.Client
         public static ApiEndPoint SmartTasks = new ApiEndPoint("15010");
 
         protected ApiEndPoint(string endpoint) : base(endpoint)
-        {            
+        {
         }
     }
 }

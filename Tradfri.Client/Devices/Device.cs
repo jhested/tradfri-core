@@ -1,7 +1,5 @@
 ﻿using CoAPnet.Client;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading;
@@ -17,7 +15,7 @@ namespace Tradfri.Client.Devices
         [JsonPropertyName(ApiCode.INSTANCE_ID)]
         public int InstanceId { get; set; }
 
-        private ICoapClient _coapClient;        
+        private ICoapClient _coapClient;
 
         public async Task Observe(CancellationToken cancellationToken = default)
         {

@@ -3,9 +3,7 @@ using CoAPnet.Extensions.DTLS;
 using Dawn;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Runtime.CompilerServices;
-using System.Text;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
@@ -17,7 +15,7 @@ namespace Tradfri.Client
     {
         private readonly ICoapClient _coapClient;
         private readonly GatewaySettings _settings;
-        
+
         private bool _connected = false;
 
         public Gateway(ICoapClient coapClient, GatewaySettings settings)
@@ -42,7 +40,7 @@ namespace Tradfri.Client
             var request = new CoapRequestBuilder()
                     .WithMethod(CoapRequestMethod.Post)
                     .WithPath(ApiEndPoint.Authentication)
-                    .WithPayload(JsonSerializer.Serialize(payload))                    
+                    .WithPayload(JsonSerializer.Serialize(payload))
                     .Build();
 
             var authResponse = await _coapClient.RequestAsync<AuthenticationResponse>(request, cancellationToken);
@@ -66,17 +64,17 @@ namespace Tradfri.Client
 
         public Task<int[]> GetDeviceIds(CancellationToken cancellationToken = default)
         {
-            if(!_connected)
+            if (!_connected)
             {
                 throw new InvalidOperationException("Please connect to Gateway");
             }
 
             var request = new CoapRequestBuilder()
                 .WithMethod(CoapRequestMethod.Get)
-                .WithPath(ApiEndPoint.Devices)                
+                .WithPath(ApiEndPoint.Devices)
                 .Build();
 
-            return _coapClient.RequestAsync<int[]>(request, cancellationToken);            
+            return _coapClient.RequestAsync<int[]>(request, cancellationToken);
         }
 
         public async IAsyncEnumerable<Device> GetDevices([EnumeratorCancellation] CancellationToken cancellationToken = default)
@@ -88,7 +86,7 @@ namespace Tradfri.Client
 
             var deviceIds = await GetDeviceIds(cancellationToken);
 
-            foreach(var device in deviceIds)
+            foreach (var device in deviceIds)
             {
                 yield return await GetDevice(device);
             }
@@ -114,7 +112,7 @@ namespace Tradfri.Client
             var s = "abcdefghijklmnopqrstuvwxyz";
             Random ran = new Random();
             var res = string.Empty;
-            for(var i = 0; i < length; i++)
+            for (var i = 0; i < length; i++)
             {
                 res += s[ran.Next(0, s.Length - 1)];
             }

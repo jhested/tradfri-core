@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Tradfri.Client
+﻿namespace Tradfri.Client
 {
-    public class ApiCode 
+    public class ApiCode
     {
         public const string NAME = "9001";
         public const string CREATION_DATE = "9002";
