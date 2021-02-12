@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rnAe34z7ea5mlYgZIDWtGP3JlpxBr6sSOJLWvRlVEQudD/9Stuqk+u0dW7tO5m80k4905hozH/ATZz976FAjEw==",
+  "dgSpecHash": "H5HoQDG0MxMyhAeOoZfzXoeU4Qp8X23wngZgXyDLNy8ZdxwR9MfmToGdX31OUJKHgnF3TJS6vy9m2az8/HVh5A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jimmi\\source\\repos\\ConsoleApp1\\Tradfri.Client\\Tradfri.Client.csproj",
+  "projectFilePath": "C:\\Users\\Jimmi\\source\\repos\\Tradfri.Net\\Tradfri.Client\\Tradfri.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jimmi\\.nuget\\packages\\coapnet\\1.0.9\\coapnet.1.0.9.nupkg.sha512",
     "C:\\Users\\Jimmi\\.nuget\\packages\\coapnet.extensions.dtls\\1.0.9\\coapnet.extensions.dtls.1.0.9.nupkg.sha512",

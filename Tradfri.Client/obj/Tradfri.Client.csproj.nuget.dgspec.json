@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jimmi\\source\\repos\\ConsoleApp1\\Tradfri.Client\\Tradfri.Client.csproj": {}
+    "C:\\Users\\Jimmi\\source\\repos\\Tradfri.Net\\Tradfri.Client\\Tradfri.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jimmi\\source\\repos\\ConsoleApp1\\Tradfri.Client\\Tradfri.Client.csproj": {
+    "C:\\Users\\Jimmi\\source\\repos\\Tradfri.Net\\Tradfri.Client\\Tradfri.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jimmi\\source\\repos\\ConsoleApp1\\Tradfri.Client\\Tradfri.Client.csproj",
+        "projectUniqueName": "C:\\Users\\Jimmi\\source\\repos\\Tradfri.Net\\Tradfri.Client\\Tradfri.Client.csproj",
         "projectName": "Tradfri.Client",
-        "projectPath": "C:\\Users\\Jimmi\\source\\repos\\ConsoleApp1\\Tradfri.Client\\Tradfri.Client.csproj",
+        "projectPath": "C:\\Users\\Jimmi\\source\\repos\\Tradfri.Net\\Tradfri.Client\\Tradfri.Client.csproj",
         "packagesPath": "C:\\Users\\Jimmi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jimmi\\source\\repos\\ConsoleApp1\\Tradfri.Client\\obj\\",
+        "outputPath": "C:\\Users\\Jimmi\\source\\repos\\Tradfri.Net\\Tradfri.Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jimmi\\AppData\\Roaming\\NuGet\\NuGet.Config",

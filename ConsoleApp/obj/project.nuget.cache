@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yk/BXWMnekK/FnIeDgYorCHGyqM+yLU71YK+ElQg8djsRcGa1dtdsfu+KyaSmAeJDy8PXo/0m8bdt0kHFoJ8Bg==",
+  "dgSpecHash": "I4S3+ktVUZTAL2k/dnczx4zYBVpZT9aNyfKnq9jaFlWzECOrQEbbmeFFWbe0GIGkZ6e/JLL2r8YaI1lfTDw6mw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jimmi\\source\\repos\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "projectFilePath": "C:\\Users\\Jimmi\\source\\repos\\Tradfri.Net\\ConsoleApp\\ConsoleApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jimmi\\.nuget\\packages\\coapnet\\1.0.9\\coapnet.1.0.9.nupkg.sha512",
     "C:\\Users\\Jimmi\\.nuget\\packages\\coapnet.extensions.dtls\\1.0.9\\coapnet.extensions.dtls.1.0.9.nupkg.sha512",
