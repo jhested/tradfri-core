@@ -1,0 +1,12 @@
+C:\Users\Jimmi\source\repos\ConsoleApp1\Tradfri.Client\obj\Debug\net5.0\Tradfri.Client.csprojAssemblyReference.cache
+C:\Users\Jimmi\source\repos\ConsoleApp1\Tradfri.Client\obj\Debug\net5.0\Tradfri.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jimmi\source\repos\ConsoleApp1\Tradfri.Client\obj\Debug\net5.0\Tradfri.Client.AssemblyInfoInputs.cache
+C:\Users\Jimmi\source\repos\ConsoleApp1\Tradfri.Client\obj\Debug\net5.0\Tradfri.Client.AssemblyInfo.cs
+C:\Users\Jimmi\source\repos\ConsoleApp1\Tradfri.Client\obj\Debug\net5.0\Tradfri.Client.csproj.CoreCompileInputs.cache
+C:\Users\Jimmi\source\repos\ConsoleApp1\Tradfri.Client\bin\Debug\net5.0\Tradfri.Client.deps.json
+C:\Users\Jimmi\source\repos\ConsoleApp1\Tradfri.Client\bin\Debug\net5.0\Tradfri.Client.dll
+C:\Users\Jimmi\source\repos\ConsoleApp1\Tradfri.Client\bin\Debug\net5.0\ref\Tradfri.Client.dll
+C:\Users\Jimmi\source\repos\ConsoleApp1\Tradfri.Client\bin\Debug\net5.0\Tradfri.Client.pdb
+C:\Users\Jimmi\source\repos\ConsoleApp1\Tradfri.Client\obj\Debug\net5.0\Tradfri.Client.dll
+C:\Users\Jimmi\source\repos\ConsoleApp1\Tradfri.Client\obj\Debug\net5.0\ref\Tradfri.Client.dll
+C:\Users\Jimmi\source\repos\ConsoleApp1\Tradfri.Client\obj\Debug\net5.0\Tradfri.Client.pdb
